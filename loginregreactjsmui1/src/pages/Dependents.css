@@ -1,0 +1,16 @@
+.sidebardep{
+    margin-top: 64px;
+}
+
+
+.buttondep {
+    background-color:rgb(9, 127, 170);
+    color: white;
+    float: right;
+    margin: 5px -31px;
+    margin-top: 24px;
+    margin-right:4rem;
+   border:rgb(9, 127, 170);
+    border-radius: 10px;
+    padding: 6px; 
+  }

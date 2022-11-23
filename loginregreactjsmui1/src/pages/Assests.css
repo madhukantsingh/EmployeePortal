@@ -1,0 +1,11 @@
+.buttonasses {
+    background-color:rgb(9, 127, 170);
+    color: white;
+    float: right;
+    margin: 5px -31px;
+    margin-top: 24px;
+    margin-right:9rem;
+   border:rgb(9, 127, 170);
+    border-radius: 10px;
+    padding: 6px; 
+  }

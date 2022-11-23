@@ -1,0 +1,58 @@
+.subh2{
+    
+    color:rgb(14 48 88);
+    font-family:"Serif";
+    margin-left: -70px;
+    text-align: center;
+    font-style: bolder;
+    font-size: 300%;
+   
+    margin-bottom: 27px;
+    MARGIN-TOP: 80PX;
+}
+  
+
+
+
+.bg-gray{
+    background-color: #dedede;
+    border: 1px solid #bfbfbf;
+    
+}
+.card{
+    
+   margin-left: 122px;
+
+
+}
+.buttonapp {
+    /* background-color: rgb(156, 124, 177); */
+    float: right;
+    width: 7%;
+    margin-top: 19px;
+    border: rgb(10 235 110);
+    border-radius: 8px;
+    padding: 9px;
+    margin-left: 78px;
+    margin-right: 112px;
+    /* color:aliceblue; */
+    background-color:rgb(9, 127, 170);
+        
+}
+.apbutton{
+    color: white;
+   
+}
+.sidebarsub{
+    margin-top: -15px;
+}
+.col-md-4app{
+    width: 30%;
+    margin-top: 34px;
+    margin-left: 68px;
+    /* background-color: #f06a0d29; */
+}
+.subcolor{
+    color: #000;
+    font-size: larger;
+}

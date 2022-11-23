@@ -1,0 +1,148 @@
+/* .header {
+   
+    text-align: center;
+    
+    background: rgb(0, 7, 61);
+    color: white;
+  }
+  .content{
+    padding:8px 0px;
+    text-align:right;
+    color: white;
+    background: rgb(0, 7, 61);
+    border: 1px  #dcd7d7;
+   
+    animation: updown ls linear infinite;
+    
+  } */
+  
+  .navbar{
+	background: #0e0c97;
+	
+	height: 60px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 50px;
+}
+
+
+.background_colour{
+	background: #abd8f1;
+	height: 60px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 50px;
+}
+
+.navbar .logo a{
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	font-weight: 700;
+	letter-spacing: 2px;
+	font-size: 25px;
+	text-transform: uppercase;
+}
+
+.navbar .nav_right > ul{
+	display: flex;
+	align-items: center;
+}
+
+.navbar .nav_right ul li.nr_li{
+	margin-left: 25px;
+	cursor: pointer;
+	color: #fff;
+	font-size: 20px;
+	position: relative;
+}
+
+.navbar .nav_right ul li.nr_li:hover {
+    color: #cefffc;
+}
+
+.navbar .nav_right ul li img{
+	width: 35px;
+	vertical-align: middle;
+}
+
+.navbar .dd_menu {
+    position: absolute;
+    right: -25px;
+    top: 47px;
+    display: flex;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 0px 3px rgba(10, 7, 185, 0.25);
+    display: none;
+}
+
+.navbar .dd_menu .dd_left{
+	background: #74ded8;
+	padding: 15px 20px;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+
+.navbar .dd_menu .dd_left li{
+	color: #fff;
+}
+
+.navbar .dd_menu .dd_right{
+	padding: 15px 20px;
+}
+
+.navbar .dd_menu li{
+	margin-bottom: 10px;
+	color: #868686;
+}
+
+.navbar .dd_menu:before{
+	content: "";
+	position: absolute;
+	top: -20px;
+	right: 30px;
+	border: 10px solid;
+	border-color: transparent transparent #fff transparent;
+}
+
+.navbar .dd_main.active .dd_menu{
+	display: flex;
+}
+
+
+.sidebar {
+	width: 100%;
+	background-color: #333;
+	height: 100vh;
+}
+
+.routes {
+	padding: 5px 10px;
+}
+ 
+.sidebar { color: #fff; padding: 5px 10px; float: left;}
+.sidebar .link { display: flex; color: #fff; text-decoration: none;}
+.sidebar .menu_item { display: flex; color: #fff;  text-decoration: none;}
+.routes svg {
+	width: 25px;
+	height: 25px;
+	color: #fff;
+	line-height: 24px;
+	margin-bottom: 20px;
+	margin-right: 10px;
+}
+
+.main {
+	float: left;
+	
+}
+
+.card { padding: 20px;}
+.sidebardash{
+	margin-top: 60px;
+	margin-bottom: 50px;
+    display: inline-block;
+}

@@ -1,0 +1,56 @@
+/* .col-md-4{
+    
+    float: center;
+    background-color: rgb(233, 222, 222);
+    margin-left: 300px;
+    /* margin-top: 180px; */
+    /* padding: 115px; */
+
+    
+   
+
+
+    .ph2{
+    
+        color:rgb(14 48 88);
+        font-family:"Serif";
+        margin-left: -70px;
+        text-align: center;
+        font-style: bolder;
+        font-size: 300%;
+       
+        margin-bottom: 27px;
+        MARGIN-TOP: 40PX;
+    }
+      
+    
+    
+    
+    .bg-gray{
+        background-color: #dedede;
+        border: 1px solid #bfbfbf;
+        
+    }
+    .card{
+        
+       margin-left: 122px;
+    
+    
+    }
+    .buttonpo {
+        background-color:rgb(156, 124, 177);  
+        float: center;
+        width: 50%;
+        margin-top: 19px;
+        border: rgb(10 235 110);
+        border-radius: 8px;
+        padding: 9px;
+        margin-left: 10px;
+    }
+    .anchor{
+        color: rgb(1, 8, 2);
+       
+    }
+    .sidebarpolicy{
+        margin-top: 62px;
+    }

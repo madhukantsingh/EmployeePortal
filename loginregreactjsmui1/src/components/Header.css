@@ -1,0 +1,178 @@
+/* .header {
+   
+    text-align: center;
+    
+    background: rgb(0, 7, 61);
+    color: white;
+  }
+  .content{
+    padding:8px 0px;
+    text-align:right;
+    color: white;
+    background: rgb(0, 7, 61);
+    border: 1px  #dcd7d7;
+   
+    animation: updown ls linear infinite;
+    
+  } */
+  
+  .css-1u2tdub {
+	height: 100vh !important;
+  }
+  .css-7jj8g9-MuiGrid-root {
+	background-size: contain !important;
+  }
+.navbar{
+	background: #7674de;
+	
+	height: 60px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 50px;
+}
+
+.navbar .logo a{
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	font-weight: 700;
+	letter-spacing: 2px;
+	font-size: 25px;
+	text-transform: uppercase;
+}
+
+.navbar .nav_right > ul{
+	display: flex;
+	align-items: center;
+}
+
+.navbar .nav_right ul li.nr_li{
+	margin-left: 25px;
+	cursor: pointer;
+	color: #fff;
+	font-size: 20px;
+	position: relative;
+}
+
+.navbar .nav_right ul li.nr_li:hover {
+    color: #cefffc;
+}
+
+.navbar .nav_right ul li img{
+	width: 35px;
+	vertical-align: middle;
+}
+
+.navbar .dd_menu {
+    position: absolute;
+    right: -25px;
+    top: 47px;
+    display: flex;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.25);
+    display: none;
+}
+
+.navbar .dd_menu .dd_left{
+	background: #74ded8;
+	padding: 15px 20px;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+
+.navbar .dd_menu .dd_left li{
+	color: #fff;
+}
+
+.navbar .dd_menu .dd_right{
+	padding: 15px 20px;
+}
+
+.navbar .dd_menu li{
+	margin-bottom: 10px;
+	color: #868686;
+}
+
+.navbar .dd_menu:before{
+	content: "";
+	position: absolute;
+	top: -20px;
+	right: 30px;
+	border: 10px solid;
+	border-color: transparent transparent #fff transparent;
+}
+
+.navbar .dd_main.active .dd_menu{
+	display: flex;
+}
+
+
+.sidebar {
+	width: 100%;
+	background-color: #573f7d;
+	/* margin-top: 60px; */
+	position: fixed;
+	height: 100vh;
+	transition: left 2.3s ease-in-out;
+	transition: left 1.5s ease-in;
+	z-index: 1999;
+}
+
+.routes {
+	padding: 5px 10px;
+}
+ 
+.sidebar { color: #fff; padding: 5px 10px; float: left; transition: left 0.9s ease-in-out;}
+.sidebar .link { display: flex; color: #fff; text-decoration: none;}
+.sidebar .menu_item { display: flex; color: #fff;  text-decoration: none;}
+.routes svg {
+	width: 25px;
+	height: 25px;
+	color: #fff;
+	line-height: 24px;
+	margin-bottom: 20px;
+	margin-right: 10px;
+}
+
+.main {
+	float: left;
+	
+}
+
+.card { padding: 20px;}
+
+ 
+.card {
+	background-color: transparent !important;
+}
+
+.card-body {
+	background-color: #fff;
+}
+
+.some-x {
+	background: url('https://www.epiuselabs.com/hubfs/Labs/SAP%20Cloud%20Migrations/sale.jpg') no-repeat;
+	position: relative;
+	overflow-x: hidden;
+	width: 100%;
+	background-size: cover;
+	z-index: 8;
+	/* opacity: 0.7; */
+
+  }
+  
+  .some-x::before{
+	/* background-color: rgba(106, 171, 233, 0.5); */
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    margin-top: 66px;
+    height: 100vh;
+	z-index: -1;
+	
+  }
+
+

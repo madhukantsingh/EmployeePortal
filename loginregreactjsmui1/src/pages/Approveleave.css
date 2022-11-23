@@ -1,0 +1,40 @@
+.container {  
+    width: 100%;  
+    height: 100%;   
+    display: grid;  
+    }  
+.table{
+ border-collapse: collapse;
+  width: 100%;
+  align-self: start;
+}
+.table td, table th {
+    border: 2px solid silver;
+    padding: 8px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .table tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+table tr:hover {
+    background-color: #ddd;
+}
+table th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    background-color: rgb(2, 101, 151);
+    color: white;
+  }
+
+  .btn btn-dark mr-2{
+    border-radius: 10px;
+
+  }
+  .glyphicon{
+    color:red;
+    margin:10px;
+    }
